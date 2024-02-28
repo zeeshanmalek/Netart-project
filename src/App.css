@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.App{
+    height: 100vh;
+    width: 100%;
+    font-family: "Annapurna SIL", serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+    display: flex;
+    height: 65vh;
+    margin-bottom: 2rem;
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width: 400px) {
+    header {
+      height: 87vh;
+    }
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
 }
-
-.App-link {
-  color: #61dafb;
+.first-p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    
 }
+.right ul li{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.second-p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.left{
+    height: 50vh;
+    width: 30%;
+}
+.left img{
+    height: 65vh;
+    width: 25vw;
+}
+.right{
+    height: 50vh;
+    width: 70%;
+}
+.right img{
+   height: 48vh;
+   width: 50vw;
+}
+section{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+section p{
+    font-size: 1.2rem;
+    
+    
+}
+.sec-p1{
+    margin-top: 1.5rem;
+}
+section img{
+    height: 45vh;
+    width: 80vw;
+}
+.red-line{
+    height: 1px;
+    margin: 5px 15px;
+    background-color: red;
+}
+footer .foot-p{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.foot-p2{
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+}
+.foot-p2 b{
+    color: red;
+}
+.foot-links{
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+    
+    background-color: rgb(212, 44, 44);
+    margin: 10px;
+    
+}
+.foot-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.icons{
+   font-size: 1rem;
+   color: white;
+   padding-right: 5px;
+   padding-top: 10px;
+    
 }
